@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>PDF Segmentation Tool</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+  <h1 class="text-center">PDF Segmentation Tool</h1>
+
+  <form method="POST" action="/segment" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="file">Upload PDF</label>
+      <input type="file" class="form-control" id="file" name="file" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Segment PDF</button>
+  </form>
+</div>
+</body>
+</html>
