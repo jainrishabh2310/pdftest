@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.pdfgen.pdfgen.PdfgenratorApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.207 s -- in com.example.pdfgen.pdfgen.PdfgenratorApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.330 s -- in com.example.pdfgen.pdfgen.PdfgenratorApplicationTests
